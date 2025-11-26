@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stock Price Tracker</title>
+    <link rel="stylesheet" href="/static/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Stock Tracker</h1>
+        <div class="subtitle">Real-time market data at your fingertips</div>
+    </header>
+
+    <div class="input-container">
+        <input type="text" id="stock-symbol" placeholder="Enter stock symbol (e.g., AAPL)" autocomplete="off">
+        <button id="track-btn" onclick="trackStock()">Track Price</button>
+    </div>
+    <div id="error-message" class="error-message"></div>
+
+    <div id="stocks-container" class="grid-container">
+        <!-- Stock cards will be inserted here -->
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
