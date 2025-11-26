@@ -42,6 +42,17 @@ This app allows users to track stock prices by pulling real-time data from the *
 - **SQLite** - Lightweight database engine for local storage 🗃️
 - **Alpha Vantage API** - Free API for real-time stock data 📊
 
+  **Schemea/Directory/Path**
+  finance-app/
+├── app/
+│   ├── __init__.py         # (ensure this exists)
+│   ├── main.py             # FastAPI app is defined here
+│   ├── models.py           # Your SQLAlchemy models
+│   ├── database.py         # Database connection
+│   ├── schemas.py          # Pydantic schemas
+└── requirements.txt        # Dependencies
+
+
 ---
 
 ## 💻 **Installation**
@@ -146,5 +157,6 @@ This project is licensed under the MIT License - see the LICENSE
 **📜 Acknowledgments**
 
 Alpha Vantage API - For providing free access to real-time stock data.
+
 
 FastAPI - For making web development fun and easy!
