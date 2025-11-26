@@ -45,12 +45,12 @@ This app allows users to track stock prices by pulling real-time data from the *
   **Schemea/Directory/Path**
   finance-app/
 ├── app/
-│   ├── __init__.py         # (ensure this exists)
-│   ├── main.py             # FastAPI app is defined here
-│   ├── models.py           # Your SQLAlchemy models
-│   ├── database.py         # Database connection
-│   ├── schemas.py          # Pydantic schemas
-└── requirements.txt        # Dependencies
+│   ├── __init__.py        
+│   ├── main.py             
+│   ├── models.py           
+│   ├── database.py        
+│   ├── schemas.py          
+└── requirements.txt        
 
 
 ---
@@ -160,3 +160,4 @@ Alpha Vantage API - For providing free access to real-time stock data.
 
 
 FastAPI - For making web development fun and easy!
+
